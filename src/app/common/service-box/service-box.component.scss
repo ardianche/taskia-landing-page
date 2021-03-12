@@ -1,0 +1,29 @@
+.service-box{
+    width: 363px;
+    height: 476px;
+    background: #525FFB;
+    border-radius: 11px;
+    padding: 27px;
+    color:white;
+    position: relative;
+    &__container{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Poppins';
+        text-align: center;
+        &--header{
+            margin-top:36px;
+        }
+        &--content{
+            font-size: 30px;
+            font-weight: 900;
+            margin-bottom: 31px;
+        }
+        &--footer{
+            font-size: 16;
+            font-weight: 600;
+            font-family: 'Muli';
+        }
+    }
+}

@@ -1,0 +1,80 @@
+<div class="content" role="main"> 
+  <header>
+    <span>Taskia</span>
+    <button>Try free</button>
+  </header>
+  <section id="first">
+    <div class="section-box-left">
+      <span>Task management and lists Tool</span>
+      <p>We believe that designing products and services in close
+        partnership with our clients is the only way to have a real
+        impact on their business.</p>
+      <div class="input-group">
+        <app-input-field placeHolder="Name@company.com"></app-input-field>
+        <app-generic-button buttonText="Try it Free"></app-generic-button>
+      </div>
+    </div>
+    <div class="section-box-right">
+      <img src="../assets/FirstSectionImage.png" alt="">
+    </div>
+  </section>
+  <section class="second-section">
+    <div class="second-section__header">
+      <span>Featured Service that We Provide</span>
+    </div>
+    <div class="second-section__content">
+      <app-service-box *ngFor="let service of services" [config]="service"></app-service-box>
+    </div>
+  </section>
+  <section class="third-section">
+    <div class="third-section__first">
+      <img src="../assets/Image 8.png" alt="">
+    </div>
+    <div class="third-section__second">
+      <span>Why do you need task management software?</span>
+      <p>Do you waste time organizing sticky notes, searching your email and apps for to-dos, and figuring out what to work on first? Then you need one solution to prioritize your tasks, manage your time, and meet your deadlines.</p>
+      <app-generic-button buttonText="Learn more"></app-generic-button>
+    </div>
+  </section>
+  <section class="third-section">
+    <div class="third-section__first" style="text-align: right;">
+      <img src="../assets/Image 7@2x.png" alt="">
+    </div>
+    <div class="third-section__second" style="grid-row:1;max-width: 552px;margin-left: auto;">
+      <span>Seamless Team Workflow & Efficient Task Management</span>
+      <p>Do you waste time organizing sticky notes, searching your email and apps for to-dos, and figuring out what to work on first? Then you need one solution to prioritize your tasks, manage your time, and meet your deadlines.</p>
+      <div class="icons">
+        <img src="../assets/apple@2x.png" alt="">
+        <img id="android" src="../assets/android@2x.png" alt="">
+      </div>
+    </div>
+  </section>
+  <section class="fourth-section">
+    <span class="title">Trust us and feel free to try our service</span>
+    <div class="fourth-section__wrapper">
+      <div class="fourth-section__first">
+        <img src="../assets/firstPic@2x.png" alt="">
+        <img src="../assets/secondPic@2x.png" alt="">
+        <img src="../assets/fourthPic@2x.png" alt="">
+      </div>
+      <div class="fourth-section__second">
+        <span>100 000</span>
+      </div>
+      <div class="fourth-section__third">
+        <img src="../assets/fourthPic@2x.png" alt="">
+        <img src="../assets/fifthPic@2x.png" alt="">
+        <img src="../assets/firstPic@2x.png" alt="">
+      </div>
+    </div>
+  </section>
+  <footer>  
+      <span>Get better work done</span>
+      <p>See why millions of people across 195 countries use Dash.</p>
+      <div class="input">
+        <app-input-field placeHolder="Name@company.com"></app-input-field>
+        <app-generic-button buttonText="Try it Free" style="margin-left:20px;"></app-generic-button>
+      </div>
+  </footer>
+</div>
+
+<router-outlet></router-outlet>

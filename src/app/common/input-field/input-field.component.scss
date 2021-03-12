@@ -1,0 +1,14 @@
+input#genericInput{
+    border: 1px solid lightgray;
+    border-radius: 100px;
+    padding: 26.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 223px;
+    max-width: 396px;
+    font-family: 'Montserrat';
+    &::placeholder{
+        font-size: 20px;
+    }
+}

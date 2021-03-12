@@ -1,0 +1,15 @@
+<div class="service-box" [style.background-color]="config.backgroundColor" [style.top]="config.position">
+    <div class="service-box__container" [style.color]="config.color">
+        <div class="service-box__container--header">
+            <app-tea-svg *ngIf="config.template == 'tea'"></app-tea-svg>
+            <app-wallet-svg *ngIf="config.template == 'wallet'"></app-wallet-svg>
+            <app-pocket-svg *ngIf="config.template == 'pocket'"></app-pocket-svg>
+        </div>
+        <div class="service-box__container--content">
+            <span>Keep tasks in one place</span>
+        </div>
+        <div class="service-box__container--footer">
+            <p>Save time, avoid losing work and information, delegate, and track tasks to stay on schedule</p>
+        </div>
+    </div>
+</div>
