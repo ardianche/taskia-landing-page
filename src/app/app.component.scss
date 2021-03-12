@@ -323,13 +323,13 @@ header{
         font-size:47px;
         font-weight: 600;
         color:#525FFB;
-        font-family: 'Poppins';
+        font-family: 'poppins';
     }
     button{
         background:transparent;
         color:#525FFB;
         font-size: 20px;
-        font-family: 'Muli';
+        font-family: 'muli';
         font-weight: 600;
         border:2px solid #525FFB;
         border-radius: 100px;
@@ -343,7 +343,7 @@ section#first, section.second-section,.fourth-section,footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Poppins';
+    font-family: 'poppins';
 }
 
 section#first{
@@ -359,7 +359,7 @@ section#first{
         }
         p{
             font-size: 20px;
-            font-family: 'Muli';
+            font-family: 'muli';
             color:#B1AAAA;
             margin-bottom:60px;
         }
@@ -402,13 +402,13 @@ section#first{
     justify-content: space-between;
     height: 100%;
     span{
-      font-family: 'Poppins';
+      font-family: 'poppins';
       font-size: 50px;
       font-weight: 900;
       color:#1E1C24
     }
     p{
-      font-family: 'Muli';
+      font-family: 'muli';
       font-weight: 600;
       font-size: 18px;
       color:#B1AAAA;
@@ -473,14 +473,14 @@ section#first{
     }
   }
   .title{
-    font-family: 'Poppins';
+    font-family: 'poppins';
     font-size: 50px;
     font-weight: 900;
     color:#1E1C24
   }
   &__second{
     font-size: 150px;
-    font-family: 'Poppins';
+    font-family: 'poppins';
     font-weight: 900;
     color:#525FFB;
     flex-grow: 1;
@@ -502,7 +502,7 @@ footer{
     margin-bottom: 30px;
   }
   p{
-    font-family: 'Muli';
+    font-family: 'muli';
     font-size: 27px;
     margin-bottom: 70px;
   }
